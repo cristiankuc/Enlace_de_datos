@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LAB-F1-USUARIO-022\\Desktop\\MS3-Trabajos\\Databinding\\DataBinding\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F0A421-C9BE-40DA-A527-EB0E0C5E9248}|..\\..\\..\\..\\source\\repos\\DataBinding.DataObject\\DataBinding.DataObject.csproj|c:\\users\\lab-f1-usuario-022\\source\\repos\\databinding.dataobject\\models\\contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F0A421-C9BE-40DA-A527-EB0E0C5E9248}|..\\..\\..\\..\\source\\repos\\DataBinding.DataObject\\DataBinding.DataObject.csproj|c:\\users\\lab-f1-usuario-022\\source\\repos\\databinding.dataobject\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F0A421-C9BE-40DA-A527-EB0E0C5E9248}|..\\..\\..\\..\\source\\repos\\DataBinding.DataObject\\DataBinding.DataObject.csproj|c:\\users\\lab-f1-usuario-022\\source\\repos\\databinding.dataobject\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contador.cs",
+              "DocumentMoniker": "C:\\Users\\LAB-F1-USUARIO-022\\source\\repos\\DataBinding.DataObject\\Models\\Contador.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\DataBinding.DataObject\\Models\\Contador.cs",
+              "ToolTip": "C:\\Users\\LAB-F1-USUARIO-022\\source\\repos\\DataBinding.DataObject\\Models\\Contador.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\DataBinding.DataObject\\Models\\Contador.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T21:20:48.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\LAB-F1-USUARIO-022\\source\\repos\\DataBinding.DataObject\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\DataBinding.DataObject\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\LAB-F1-USUARIO-022\\source\\repos\\DataBinding.DataObject\\MainPage.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\DataBinding.DataObject\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T21:06:25.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\LAB-F1-USUARIO-022\\source\\repos\\DataBinding.DataObject\\MainPage.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\DataBinding.DataObject\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\LAB-F1-USUARIO-022\\source\\repos\\DataBinding.DataObject\\MainPage.xaml",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\DataBinding.DataObject\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-10T21:05:53.537Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
