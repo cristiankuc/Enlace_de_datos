@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-names:DataBinding.coleccion.Views"
+             xmlns:models="clr-namespace:DataBinding.coleccion.Models"
+             x:DataType="views:"
+             x:Class="DataBinding.coleccion.Views.MainPage"
+             Title="MainPage">
+    <Grid
+        RowDefinitions="Auto,*,Auto"
+         Padding="16">
+        
+        <Grid
+        ColumnDefinitions="*,Auto,Auto"
+        ColumnSpacing="4">
+            
+            <Label
+            Text="Origenes del paquete:"
+            VerticalOptions="Center"/>
+            
+            <Button
+            Grid.Column="1"
+            Text="+"
+            TextColor="Green"
+            BackgroundColor="White"
+            Margin="10"
+            FontSize="Small"
+            FontAttributes="Bold"
+            BorderColor="Gray"
+            BorderWidth="1"
+                Clicked="OnAgregarButtonCliked"/>
+            
+            <Button
+            Grid.Column="2"
+            Text="X"
+            TextColor="Red"
+            BackgroundColor="White"
+            Margin="10"
+            FontSize="Small"
+            BorderColor="Gray"
+            BorderWidth="1"
+                Clicked="OnDeLeteButtonClicked"/>
+
+
+        </Grid>
+
+        <CollectionView
+         
+         Grid.Row="1"
+            ItemsSource="{Binding Origenes}"
+         EmptyView="Aun no se registran origenes del paquetes"
+         SelectionMode="Single"
+            SelectedItem="{Binding OrigeneSeleccionado}"
+         SelectionChanged="OrigenesListView_SelectionChanged"
+         x:Name="OrigenesListView"
+         BackgroundColor="Black"
+         
+            >
+        </CollectionView>
+        
+        
+
+        <Grid
+        Grid.Row="2"
+        RowDefinitions="Auto,Auto,Auto"
+        ColumnDefinitions="Auto,*,Auto"
+        RowSpacing="8"
+        ColumnSpacing="8">
+            
+            <Label
+            Text="Nombre:"
+            VerticalOptions="Center"/>
+            
+            <Entry
+            Grid.Column="1"
+                Text="{Binding  }"
+               
+                x:Name="NombreEntry"/>
+            
+            <Label
+            Text="Origen:"
+            Grid.Row="1"
+            VerticalOptions="Center"/>
+            
+            <Entry
+            Grid.Column="1"
+            Grid.Row="1"
+                x:Name="OrigenEntry"/>
+            
+            <Button
+            Text="Actualizar"
+            Grid.Row="1"
+            Grid.Column="2"
+            TextColor="Black"
+            BackgroundColor="White"
+            BorderColor="LightGray"
+            BorderWidth="1"
+                Clicked="OnActualizarButton_Clicked"/>
+
+           
+        </Grid>
+
+    </Grid>
+
+
+</ContentPage>
